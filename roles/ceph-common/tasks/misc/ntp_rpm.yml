@@ -21,7 +21,7 @@
         name: chronyd
         enabled: yes
         state: started
-  when: ntp_daemon_type == "chrony"
+  when: ntp_daemon_type == "chronyd"
 
 - name: setup timesyncd
   block:
